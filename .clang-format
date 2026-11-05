@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+AlignConsecutiveDeclarations: Consecutive
+BreakConstructorInitializers: AfterColon
+ColumnLimit: 0
+DerivePointerAlignment: false
+IndentCaseLabels: true
+IndentWidth: 4
+InsertBraces: true
+InsertNewlineAtEOF: true
+MaxEmptyLinesToKeep: 2
+NamespaceIndentation: None
+PointerAlignment: Right
+ReflowComments: false
+SortIncludes: false
+SpaceBeforeCpp11BracedList: true

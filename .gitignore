@@ -1,0 +1,10 @@
+# build
+build*/
+compile_commands.json
+.cache/
+
+# editor specific
+.idea/
+.vs/
+.vscode/
+.projectile

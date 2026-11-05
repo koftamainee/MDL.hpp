@@ -1,0 +1,6 @@
+name "Grom"
+hp 100
+speed 5.5
+is_boss false
+faction_name Orcs
+tags [sword shield]

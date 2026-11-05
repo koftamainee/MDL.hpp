@@ -1,0 +1,5 @@
+add_executable(MDLBench Bench.cpp)
+set_target_properties(MDLBench PROPERTIES CXX_EXTENSIONS OFF)
+target_compile_options(MDLBench PRIVATE ${MDL_COMPILE_FLAGS})
+target_compile_definitions(MDLBench PRIVATE ${MDL_PRIVATE_DEFINITIONS})
+target_link_libraries(MDLBench PRIVATE MDL::MDL)

@@ -1,0 +1,34 @@
+shader pbr
+stages {
+  vertex {
+    src shaders/pbr.slang
+    entry vs_main
+  }
+
+  fragment {
+    src shaders/pbr.slang
+    entry fs_main
+  }
+}
+
+pipeline {
+  depth_test true
+  depth_write true
+  blend opaque
+  cull_mode back
+  polygon_mode fill
+}
+
+# Lists can enumerate on a single line
+some_list [ Monday Tuesday ]
+
+string_with_spaces "Hello world!"
+
+# requires "" for # symbol
+black_color "#FFFFFF"
+
+# raw string for \
+windows_path `C:\Projects\Mantle`
+
+# raw string with \` symbol
+hello2 `Hello \` World!`
