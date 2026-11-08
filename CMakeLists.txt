@@ -32,8 +32,8 @@ target_compile_definitions(MDL
     PUBLIC
         MDL_MAX_DEPTH=${MDL_MAX_DEPTH}
         MDL_SNAKE_CASE_NAMES=$<BOOL:${MDL_SNAKE_CASE_NAMES}>
-        MDL_ENUM_MIN=(${MDL_ENUM_MIN})
-        MDL_ENUM_MAX=(${MDL_ENUM_MAX})
+        "MDL_ENUM_MIN=(${MDL_ENUM_MIN})"
+        "MDL_ENUM_MAX=(${MDL_ENUM_MAX})"
         MDL_ENABLE_ASSERTS=$<BOOL:${MDL_ENABLE_ASSERTS}>
 )
 
